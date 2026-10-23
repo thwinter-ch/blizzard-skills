@@ -1,0 +1,8 @@
+{
+  "name": "communication",
+  "description": "Communication: plain writing (STE, Einfache Sprache) and SCIPAB decision briefs.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Thomas Winter"
+  }
+}

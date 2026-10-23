@@ -13,7 +13,7 @@ A public skills marketplace from Blizzard Ventures. Add it once, and every skill
 ```
 /plugin marketplace add thwinter-ch/blizzard-skills
 /plugin install thinking@blizzard-skills
-/plugin install writing@blizzard-skills
+/plugin install communication@blizzard-skills
 ```
 
 **ChatGPT or another tool:** open the skill's `SKILL.md` and paste its text into a project as instructions.
@@ -24,8 +24,8 @@ A public skills marketplace from Blizzard Ventures. Add it once, and every skill
 |---|---|---|
 | thinking | [`concept-page`](./plugins/thinking/skills/concept-page) | Thinks an idea through on one web page (idea, concept, build idea), source in your repo, published on here.now. |
 | thinking | [`grill-me`](./plugins/thinking/skills/grill-me) | Interviews you about a plan, one question at a time, and saves every answer to a file. |
-| thinking | [`scipab`](./plugins/thinking/skills/scipab) | Structures a data dump into a 7-part SCIPAB decision brief (Situation → Risk). |
-| writing | [`ste`](./plugins/writing/skills/ste) | Plain writing: ASD-STE100 for English, DIN 8581-1 «Einfache Sprache» for German. Picks the fastest form: text, diagram, page or video. |
+| communication | [`scipab`](./plugins/communication/skills/scipab) | Structures a data dump into a 7-part SCIPAB decision brief (Situation → Risk). |
+| communication | [`ste`](./plugins/communication/skills/ste) | Plain writing: ASD-STE100 for English, DIN 8581-1 «Einfache Sprache» for German. Picks the fastest form: text, diagram, page or video. |
 
 ## How skills work
 
