@@ -1,0 +1,14 @@
+{
+  "name": "blizzard-skills",
+  "description": "Public skills from Blizzard Ventures: plain writing, concept pages, interviews, decision briefs.",
+  "owner": {
+    "name": "Thomas Winter"
+  },
+  "plugins": [
+    {
+      "name": "blizzard",
+      "source": "./plugins/blizzard",
+      "description": "Thinking and writing skills from Blizzard Ventures: plain writing (STE), concept pages, grill-me interviews, SCIPAB decision briefs."
+    }
+  ]
+}
