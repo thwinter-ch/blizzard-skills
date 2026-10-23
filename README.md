@@ -6,25 +6,26 @@ A public skills marketplace from Blizzard Ventures. Add it once, and every skill
 
 ## Install
 
-**Claude app:** add the marketplace `thwinter-ch/blizzard-skills` under plugins, then install the plugin `blizzard`.
+**Claude app:** add the marketplace `thwinter-ch/blizzard-skills` under plugins, then install the packs you want.
 
 **Claude Code:**
 
 ```
 /plugin marketplace add thwinter-ch/blizzard-skills
-/plugin install blizzard@blizzard-skills
+/plugin install thinking@blizzard-skills
+/plugin install writing@blizzard-skills
 ```
 
 **ChatGPT or another tool:** open the skill's `SKILL.md` and paste its text into a project as instructions.
 
-## Available skills
+## Packs
 
-| Skill | What it does |
-|---|---|
-| [`ste`](./plugins/blizzard/skills/ste) | Plain writing: ASD-STE100 for English, DIN 8581-1 «Einfache Sprache» for German. Picks the fastest form: text, diagram, page or video. |
-| [`concept-page`](./plugins/blizzard/skills/concept-page) | Thinks an idea through on one web page (idea, concept, build idea), source in your repo, published on here.now. |
-| [`grill-me`](./plugins/blizzard/skills/grill-me) | Interviews you about a plan, one question at a time, and saves every answer to a file. |
-| [`scipab`](./plugins/blizzard/skills/scipab) | Structures a data dump into a 7-part SCIPAB decision brief (Situation → Risk). |
+| Pack | Skill | What it does |
+|---|---|---|
+| thinking | [`concept-page`](./plugins/thinking/skills/concept-page) | Thinks an idea through on one web page (idea, concept, build idea), source in your repo, published on here.now. |
+| thinking | [`grill-me`](./plugins/thinking/skills/grill-me) | Interviews you about a plan, one question at a time, and saves every answer to a file. |
+| thinking | [`scipab`](./plugins/thinking/skills/scipab) | Structures a data dump into a 7-part SCIPAB decision brief (Situation → Risk). |
+| writing | [`ste`](./plugins/writing/skills/ste) | Plain writing: ASD-STE100 for English, DIN 8581-1 «Einfache Sprache» for German. Picks the fastest form: text, diagram, page or video. |
 
 ## How skills work
 

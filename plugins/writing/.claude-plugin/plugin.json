@@ -1,0 +1,8 @@
+{
+  "name": "writing",
+  "description": "Plain writing: ASD-STE100 for English, DIN 8581-1 Einfache Sprache for German, and the fastest output form.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Thomas Winter"
+  }
+}

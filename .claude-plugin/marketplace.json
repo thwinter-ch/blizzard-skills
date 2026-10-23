@@ -1,14 +1,19 @@
 {
   "name": "blizzard-skills",
-  "description": "Public skills from Blizzard Ventures: plain writing, concept pages, interviews, decision briefs.",
+  "description": "Public skills from Blizzard Ventures, in packs: thinking and writing.",
   "owner": {
     "name": "Thomas Winter"
   },
   "plugins": [
     {
-      "name": "blizzard",
-      "source": "./plugins/blizzard",
-      "description": "Thinking and writing skills from Blizzard Ventures: plain writing (STE), concept pages, grill-me interviews, SCIPAB decision briefs."
+      "name": "thinking",
+      "source": "./plugins/thinking",
+      "description": "Thinking and decision tools: concept pages, grill-me interviews, SCIPAB decision briefs."
+    },
+    {
+      "name": "writing",
+      "source": "./plugins/writing",
+      "description": "Plain writing: ASD-STE100 for English, DIN 8581-1 Einfache Sprache for German, and the fastest output form."
     }
   ]
 }
