@@ -4,7 +4,7 @@ A public skills marketplace from Blizzard Ventures, by [Thomas Winter](https://w
 
 ## Install
 
-### In the Claude app (web or desktop), most people
+### In the Claude app (web or desktop)
 
 1. In the left sidebar, open **Customize**, then the **Plugins** tab.
 2. Click **Add**, then **Add marketplace**, then **Add from a repository**.
