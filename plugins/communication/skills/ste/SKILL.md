@@ -106,3 +106,9 @@ Before (one sentence, 50 words, -ing verbs, swap words, a vague actor):
 After (STE):
 
 > After the merge, we expect the marketplace to sync the new skill in approximately 2 hours. After the sync, all sessions can use the skill. If a session does not show the skill, click "Check for updates".
+
+## Sources
+
+- ASD-STE100 Simplified Technical English, the standard of ASD (AeroSpace and Defence Industries Association of Europe), [asd-ste100.org](https://www.asd-ste100.org/). This skill does not hold the STE dictionary.
+- DIN 8581-1:2024-05 «Einfache Sprache» and ISO 24495-1 (plain language) for other languages.
+- Andrej Karpathy, [post on the output ladder](https://x.com/karpathy/status/2105819303471976479), 2 October 2026.

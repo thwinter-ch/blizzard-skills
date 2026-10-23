@@ -60,3 +60,7 @@ Date: {date} · Goal: {one line}
 - Re-read the file for contradictions and gaps, and reconcile them.
 - Short recap: what is captured, what is still flagged, the one next step.
 - Offer to save the durable decisions to the user's memory or notes tool, one fact per entry. Offer — do not write memory unasked.
+
+## Source
+
+Based on Matt Pocock's `grill-me` skill in [mattpocock/skills](https://github.com/mattpocock/skills) (MIT license). This version adds the capture file and the checkpoint rule.

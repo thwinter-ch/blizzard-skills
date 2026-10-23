@@ -18,18 +18,7 @@ Because reading three paragraphs of investigation prose to find out *what the mo
 
 ## Install
 
-```bash
-# clone the parent repo
-git clone https://github.com/thwinter-ch/skills.git ~/skills-repo
-
-# copy this skill into your Claude skills dir
-cp -r ~/skills-repo/scipab ~/.claude/skills/
-
-# or symlink so `git pull` keeps it updated
-ln -s ~/skills-repo/scipab ~/.claude/skills/scipab
-```
-
-Windows: `mklink /D %USERPROFILE%\.claude\skills\scipab "%USERPROFILE%\skills-repo\scipab"` or just copy the folder.
+Install the `communication` pack from the blizzard-skills marketplace. See the [main README](../../../../README.md).
 
 ## License
 
