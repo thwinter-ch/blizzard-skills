@@ -4,9 +4,20 @@ A public skills marketplace from Blizzard Ventures, by [Thomas Winter](https://w
 
 ## Install
 
-**Claude app:** add the marketplace `thwinter-ch/blizzard-skills` under plugins, then install the packs you want.
+### In the Claude app (web or desktop), most people
 
-**Claude Code:**
+1. In the left sidebar, open **Customize**, then the **Plugins** tab.
+2. Click **Add**, then **Add marketplace**, then **Add from a repository**.
+3. Enter `thwinter-ch/blizzard-skills` and confirm.
+4. In **Plugins**, open **Discover**, pick a pack (`thinking` or `communication`) and click **Add**.
+
+Done. Updates arrive by themselves. Plugins need a paid Claude plan (Pro, Max, Team or Enterprise). Official steps: [Use plugins in Claude](https://support.claude.com/en/articles/13837440-use-plugins-in-claude).
+
+### In ChatGPT or another AI tool
+
+Open the skill's `SKILL.md` below, copy its text and paste it into a project as instructions. Copy any `workflow.md` next to it too. Updates do not arrive by themselves.
+
+### In Claude Code (terminal)
 
 ```
 /plugin marketplace add thwinter-ch/blizzard-skills
@@ -14,17 +25,26 @@ A public skills marketplace from Blizzard Ventures, by [Thomas Winter](https://w
 /plugin install communication@blizzard-skills
 ```
 
-**ChatGPT or another tool:** open the skill's `SKILL.md` and paste its text into a project as instructions.
-
 ## Packs
 
-| Pack | Skill | What it does |
-|---|---|---|
-| thinking | [`higher-and-better`](./plugins/thinking/skills/higher-and-better) | Raises an ask (higher, deeper, wider, one hard target), has a test or another model judge the result, keeps the report small. |
-| thinking | [`concept-page`](./plugins/thinking/skills/concept-page) | Thinks an idea through on one web page (idea, concept, build idea), source in your repo, published on here.now. |
-| thinking | [`grill-me`](./plugins/thinking/skills/grill-me) | Interviews you about a plan, one question at a time, and saves every answer to a file. |
-| communication | [`scipab`](./plugins/communication/skills/scipab) | Structures a data dump into a 7-part SCIPAB decision brief (Situation → Risk). |
-| communication | [`ste`](./plugins/communication/skills/ste) | Plain writing: ASD-STE100 for English, DIN 8581-1 «Einfache Sprache» for German. Picks the fastest form: text, diagram, page or video. |
+### thinking
+
+Raise the ask, think an idea through, get grilled.
+
+| Skill | What it does |
+|---|---|
+| [`higher-and-better`](./plugins/thinking/skills/higher-and-better) | Raises an ask (higher, deeper, wider, one hard target), has a test or another model judge the result, keeps the report small. |
+| [`concept-page`](./plugins/thinking/skills/concept-page) | Thinks an idea through on one web page (idea, concept, build idea), source in your repo, published on here.now. |
+| [`grill-me`](./plugins/thinking/skills/grill-me) | Interviews you about a plan, one question at a time, and saves every answer to a file. |
+
+### communication
+
+Write so people get it the first time, and lead with the decision.
+
+| Skill | What it does |
+|---|---|
+| [`ste`](./plugins/communication/skills/ste) | Plain writing: ASD-STE100 for English, DIN 8581-1 «Einfache Sprache» for German. Picks the fastest form: text, diagram, page or video. |
+| [`scipab`](./plugins/communication/skills/scipab) | Structures a data dump into a 7-part SCIPAB decision brief (Situation → Risk). |
 
 ## Credits
 
