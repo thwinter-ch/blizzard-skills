@@ -39,12 +39,13 @@ Raise the ask, think an idea through, get grilled.
 
 ### communication
 
-Write so people get it the first time, and lead with the decision.
+Write so people get it the first time, lead with the decision, and give each customer one page.
 
 | Skill | What it does |
 |---|---|
 | [`ste`](./plugins/communication/skills/ste) | Plain writing: ASD-STE100 for English, DIN 8581-1 «Einfache Sprache» for German. Picks the fastest form: text, diagram, page or video. |
 | [`scipab`](./plugins/communication/skills/scipab) | Structures a data dump into a 7-part SCIPAB decision brief (Situation → Risk). |
+| [`engagement-page`](./plugins/communication/skills/engagement-page) | One web page for a named outside audience (customer room, pitch, point page), source in your repo, published on here.now, public or protected. |
 
 ## Credits
 
